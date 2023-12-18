@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "High Dimensional Feature Selection Alogorithm with Interactions for Time-to-Event Outcome"
+  author:
+    - "Lin Yu"
+    - "Wei Xu"
+  date: "12/1/2023"
+  repo-url: https://github.com/thisislinyu/metrics1
+  repo-branch: main
+  repo-actions: [issue]
+  sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - 01intro.qmd
+    - 02method.qmd
+    - 03result.qmd
+    - 04conclusion.qmd
+    - references.qmd
+    - cox-model.qmd
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+     - cosmo
+     - r4ds.scss
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
