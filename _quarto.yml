@@ -1,5 +1,6 @@
 project:
-  type: book
+  type: website
+  output-dir: docs
 
 book:
   title: "High Dimensional Feature Selection Alogorithm with Interactions for Time-to-Event Outcome"
